@@ -1,0 +1,38 @@
+It contains 21 input properties (nprops=21), being the some not used in the final version of the UMAT. In any case these need to be defined as 0.0
+The values of concrete properties are described in EC2 and MC2010
+
+E=props(1)      ! LONGITUDINAL ELASTIC MODULUS
+nu=props(2)     ! POISSON COEFICIENT
+fctm=props(3)   ! CRACKING STRESS
+props(4)   ! NOT USED
+GfIt=props(5)   ! FRACTURE ENERGY FOR TENSION
+GfIc=props(6)   ! FRACTURE ENERGY FOR COMPRESSION
+props(7)   ! NOT USED
+eta=props(8)    ! VISCOUS REGULARIZATION COEFICIENT
+dmaxt=props(9)  ! MAXIMUM TENSION DAMAGE ALLOWED (Insert 1.0)
+dmaxc=props(10) ! MAXIMUM COMPRESSION DAMAGE ALLOWED (Insert 1.0)
+props(11)  ! NOT USED
+pt=props(12)    ! RESIDUAL TENSILE STRESS (10% then insert 0.1)
+pc=props(13)    ! RESIDUAL COMPRESSION STRESS
+props(14)  ! NOT USED
+props(15)  ! NOT USED   
+props(16)  ! NOT USED
+props(17)  ! NOT USED 
+props(18)  ! NOT USED
+ec1=props(19)   ! strain ec1 for compression   
+ec2=props(20)   ! strain ec2 for compression
+fcm=props(21)   ! maximum compression stress
+
+
+It contains 10 output state variables (nstatv=10), being some irrelevant at the moment, and should be disregarded. 
+
+dto=statev(1)      ! TENSION DAMAGE FROM PREVIOUS INCREMENT
+dco=statev(2)      ! COMPRESSION DAMAGE FROM PREVIOUS INCREMENT
+statev(3)      ! NOT USED
+dvto=statev(4)     ! VISCOUS TENSION DAMAGE FROM PREVIOUS INCREMENT
+dvco=statev(5)     ! VISCOUS COMPRESSION DAMAGE FROM PREVIOUS INCREMENT
+statev(6)      ! NOT USED
+edo=statev(7)      ! UPDATED CRACKING STRAIN FROM PREVIOUS INCREMENT
+alphato=statev(8)  ! PREVIOUS TENSION CONSTANT
+alphaco=statev(9)  ! PREVIOUS COMPRESSION CONSTANT
+damageo=statev(10) ! PREVIOUS COMPRESSION CONSTANT
