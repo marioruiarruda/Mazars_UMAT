@@ -5,7 +5,7 @@ optimize, and some bugs may accour.
 But the 3D analysis is not at the moment tested or validated, caution in the final results is advise.
 
 3) By default the code is generated using Implicit Analysis, with the Stabilization Algorithm.
-Therefore, when explaining this algorithm it is mandatory to cite https://doi.org/10.3390/app13021155 
+Therefore, when explaining this algorithm please cite https://doi.org/10.3390/app13021155 
 For Geometrical Non-Linear Analysis, when using this code, the viscosity parameter should be below 1E-7.
 
 4) Future versions of this UMAT will be posted without warning.
