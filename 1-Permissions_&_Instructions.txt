@@ -35,7 +35,8 @@ For Geometrical Non-Linear Analysis, when using this code, the viscosity paramet
 therefore it is not expected an quadratic convergence when using ABAQUS standard,
 and it is recomended to reduce some iterative criteria (in the step module) to allow convergence.
 
-6) The damage evolution has been updated not present in the original manuscript to better simulate the 3D behaviour. 
+6) The damage evolution has been updated, and it is not present in the original manuscript. 
+This was done to better simulate the 3D behaviour. 
 Last damage formulation is presented in Pre-Print_UMAT_Hassan.pdf
 
 ----####--------------------------------####---
